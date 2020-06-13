@@ -157,5 +157,71 @@ List of Commony used commands in Git
 
 ==============================================
 
+#### Configuration:
+
+* To configure name: <br>
+`git config --global user.name sudarshan`
+
+* To configure email: <br>
+`git config --global user.email sudarshan@gmail.com`
+
+* To check the configured name: <br>
+`git config user.name`
+
+* To  check  the configured email: <br>
+`git config user.email`
+
+===============================================
+
+#### Undoing Things
+
+* Get the list of commit id with command <br>
+`git log --oneline`
+
+* To checkout:  <br>
+`git checkout commit_id`
+
+* To revert:  <br>
+`git revert commit_id`
+
+* To reset:  <br>
+`git reset commit_id`
+
+======================================
+
+#### Commands to Work with git:
+
+* To Initialize the repo <br>
+`git init`
+
+* To check the status of the file <br>
+`git status`
+
+* To stage file: <br>
+`git add ./*/file_name`
+
+* To unstage file <br>
+`git rm --cached file_name`
+
+* To commit file:<br>
+`git commit -m "Commit Name"`
+
+===================================
+
+#### Merging Branches:
+
+* Merging Branch: <br>
+`git merge bch_name`
+
+<b>Note:</b> To merge the branch branch_name with master, <br>
+go to the master branch and execute the above command
+
+* Handling conflicts while merging <br>
+Git will automatically resolve the conflicts, In case if not, do the following steps <br>
+<ul><li>	Go the conflicted file, edit or the change  the file to remove conflicts  </li>
+<li>	git add * </li>
+<li>	git commit </li> </ul>
+
+===================================
 
 
