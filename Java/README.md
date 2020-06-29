@@ -202,12 +202,12 @@ Deadlock can occur in a situation when a Thread is waiting for an object lock wh
 Collection is a framework that provides architecture to store and manipulate the group of objects.
 Whenever we want to represent a group of individual objects as a single entity then we should go for the collection.
 
-•	Collections are grow-able in nature.
-•	Both Homogeneous as well as Heterogeneous data type elements.
-•	Every Collection class is implemented based on some standard data structure. Hence readymade method support is available.
-•	WRT memory collections are recommended to use.
-•	WRT Performance collections are not recommended to use.
-•	Collection can hold only objects but not primitives.
+•	Collections are grow-able in nature.<br/>
+•	Both Homogeneous as well as Heterogeneous data type elements.<br/>
+•	Every Collection class is implemented based on some standard data structure. Hence readymade method support is available.<br/>
+•	WRT memory collections are recommended to use.<br/>
+•	WRT Performance collections are not recommended to use.<br/>
+•	Collection can hold only objects but not primitives.<br/>
 
 
 #### Difference between Array and Collection
@@ -230,29 +230,29 @@ Whenever we want to represent a group of individual objects as a single entity t
  </ul>
 
 ### 1.5.1	List
-•	List is a type of collection and it is grow-able in nature. It grows dynamically.
-•	It allows duplicate and null object to store.
-•	It preserves insertion order.
-•	When we should go for a collection means, whenever we want to represent group of individual object as a single entity where duplicates are allowed and insertion order is preserved.
-•	Here element can be stores and retrieved based on index, iterator, for each look.
-•	List contain mainly 3 types: Array List, Vector, Linked List
+•	List is a type of collection and it is grow-able in nature. It grows dynamically.<br/>
+•	It allows duplicate and null object to store.<br/>
+•	It preserves insertion order.<br/>
+•	When we should go for a collection means, whenever we want to represent group of individual object as a single entity where duplicates are allowed and insertion order is preserved.<br/>
+•	Here element can be stores and retrieved based on index, iterator, for each look.<br/>
+•	List contain mainly 3 types: Array List, Vector, Linked List<br/>
 
 #### 1.5.1.1	Array List
-•	Array List is a type of List which is used to store collection or group of objects.
-•	It is growable in nature it grows with the size of 2^n+1.
-•	It allows duplicate as well as null objects to store.
-•	It preserves insertion order.
-•	It uses Dynamic array data structure to store the data.
-•	Here elements can be added based on index, iterator and for each loop & can be retrieved based on for each loop.
-•	Whenever we want to represent group of individual objects as a separate entity where duplicates are allowed and insertion order is preserved.
+•	Array List is a type of List which is used to store collection or group of objects.<br/>
+•	It is growable in nature it grows with the size of 2^n+1.<br/>
+•	It allows duplicate as well as null objects to store.<br/>
+•	It preserves insertion order.<br/>
+•	It uses Dynamic array data structure to store the data.<br/>
+•	Here elements can be added based on index, iterator and for each loop & can be retrieved based on for each loop.<br/>
+•	Whenever we want to represent group of individual objects as a separate entity where duplicates are allowed and insertion order is preserved.<br/>
   
 
 #### 1.5.1.2	Vector
-•	Vector is a type of List which is used to store the group of individual objects.
-•	It is grow able in nature. It grows with the size of 2n+1.
-•	It is synchronized and thread safe.
-•	It is slower in performance compared to Array List.
-•	It uses dynamically resizing array data structure or dynamic array data structure.
+•	Vector is a type of List which is used to store the group of individual objects.<br/>
+•	It is grow able in nature. It grows with the size of 2n+1.<br/>
+•	It is synchronized and thread safe.<br/>
+•	It is slower in performance compared to Array List.<br/>
+•	It uses dynamically resizing array data structure or dynamic array data structure.<br/>
 
 
 |Array List	|Vector|
@@ -264,11 +264,11 @@ Whenever we want to represent a group of individual objects as a single entity t
  
 
 #### 1.5.1.3	Linked List
-•	Linked List is a type of List which is used to store group of object.
-•	It is a type of both List as well as Que.
-•	It uses doubly linked Data structure to store the data.
-•	Here elements can be added by linking object to previous objects.
-•	In Linked List Manipulation is faster since if we remove elements from the list it will not shift entire cells instead it will just remove the link and add links to previous object.
+•	Linked List is a type of List which is used to store group of object.<br/>
+•	It is a type of both List as well as Que.<br/>
+•	It uses doubly linked Data structure to store the data.<br/>
+•	Here elements can be added by linking object to previous objects.<br/>
+•	In Linked List Manipulation is faster since if we remove elements from the list it will not shift entire cells instead it will just remove the link and add links to previous object.<br/>
 
 
 |Array List	|Linked List|
@@ -281,55 +281,55 @@ Whenever we want to represent a group of individual objects as a single entity t
 
 
 ### 1.5.2	Queue
-•	Que is a type of collection used to store group of objects.
-•	It maintains the first in first out order.
-•	It holds the data which are about to be processed.
+•	Que is a type of collection used to store group of objects.<br/>
+•	It maintains the first in first out order.<br/>
+•	It holds the data which are about to be processed.<br/>
 
 #### 1.5.2.1	Priority Queue
-•	Priority Que is an Implementation class of Que.
-•	It holds the data which are prior to processing by their priorities.
-•	It stores and retrieves the element based on priority level.
-•	It does not allow null values to be stored in the queue.
+•	Priority Que is an Implementation class of Que.<br/>
+•	It holds the data which are prior to processing by their priorities.<br/>
+•	It stores and retrieves the element based on priority level.<br/>
+•	It does not allow null values to be stored in the queue.<br/>
 
 #### 1.5.3	Set
-•	Set is a type of collection used to store the group of objects.
-•	It doesn’t allow duplicate objects to store. 
-•	It allows us to store at most one null value in set.
-•	It does not preserve insertion order.
-•	Whenever we want to represent group of individual objects as single entity where duplicates are not allowed and insertion order is not preserved.
+•	Set is a type of collection used to store the group of objects.<br/>
+•	It doesn’t allow duplicate objects to store. <br/>
+•	It allows us to store at most one null value in set.<br/>
+•	It does not preserve insertion order.<br/>
+•	Whenever we want to represent group of individual objects as single entity where duplicates are not allowed and insertion order is not preserved.<br/>
 
 ##### 1.5.3.1	Hash Set
-•	HashSet is an implementation class of Set Interface.
-•	It uses hash table for storage.
-•	Hashing technique is used store the elements.
-•	It contains unique items.
+•	HashSet is an implementation class of Set Interface.<br/>
+•	It uses hash table for storage.<br/>
+•	Hashing technique is used store the elements.<br/>
+•	It contains unique items.<br/>
 
 ##### 1.5.3.2	Linked Hash Set
-•	It represents Linked List implementation of Set Interface.
-•	It extends HashSet class and implements Set interface.
-•	It also contains unique elements.
-•	It preserves insertion order and permits null elements.
+•	It represents Linked List implementation of Set Interface.<br/>
+•	It extends HashSet class and implements Set interface.<br/>
+•	It also contains unique elements.<br/>
+•	It preserves insertion order and permits null elements.<br/>
 
 ##### 1.5.3.3	Sorted Set
-•	Sorted Set is an alternate of Set interface.
-•	Elements of Sorted Set are arranged in the ascending order.
-•	Whenever we want to represent group of individual objects as a single entity where duplicates are not allowed but all the objects should be inserted according to some sorting order, then we should go for sorted set.
+•	Sorted Set is an alternate of Set interface.<br/>
+•	Elements of Sorted Set are arranged in the ascending order.<br/>
+•	Whenever we want to represent group of individual objects as a single entity where duplicates are not allowed but all the objects should be inserted according to some sorting order, then we should go for sorted set.<br/>
 
 ##### 1.5.3.4	Navigable Set
-•	Navigable Set is a child interface of Sorted Set.
-•	It defines several methods for Navigation purpose.
+•	Navigable Set is a child interface of Sorted Set.<br/>
+•	It defines several methods for Navigation purpose.<br/>
 
 ##### 1.5.3.5	Tree Set
-•	Tree Set is an implementation of Set interface.
-•	It uses balanced tree data structure to store the data.
-•	It does not allow duplicate objects to store.
-•	It stores the elements by natural ascending order.
+•	Tree Set is an implementation of Set interface.<br/>
+•	It uses balanced tree data structure to store the data.<br/>
+•	It does not allow duplicate objects to store.<br/>
+•	It stores the elements by natural ascending order.<br/>
 
 
 ### 1.5.4	Map
 
-•	Map is not the child interface of Collection. It’s just a part of collection.
-•	If we want to represent a group of individual objects as key value pairs then should go for Map.
-•	Both key & values are objects, duplicate keys are not allowed but values can be duplicated.
+•	Map is not the child interface of Collection. It’s just a part of collection.<br/>
+•	If we want to represent a group of individual objects as key value pairs then should go for Map.<br/>
+•	Both key & values are objects, duplicate keys are not allowed but values can be duplicated.<br/>
 
 
