@@ -189,7 +189,7 @@ According to sun, Thread life cycle in java is divided into 4 states, those are 
 
 ### 1.4.3	Multithreading:
 
-Multithreading is a process of executing multiple threads simultaneously
+Multithreading is a process of executing multiple threads simultaneously <br/>
 
 Multithreading and multiprocessing is used to achieve multitasking. We will use multithread rather than multiprocess since it uses shared memory area & context switching between thread also very fast & takes less time. But processing will take more time & will not use shared memory area.
 
