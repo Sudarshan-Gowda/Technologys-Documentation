@@ -34,14 +34,15 @@ Methods available in Object class are:
 
 ### 1.1.5	Class:
 Class is a blueprint which includes the members like variables, functions (methods), blocks, and constructor.  Or is a collection of Objects, variables, functions (methods), blocks, and constructor.	
-1.1.6	Blocks:
+
+### 1.1.6	Blocks:
 Blocks is a set of statements enclosed by curly braces, blocks which is represented by static keyword is called static blocks and blocks which is represented by without any static keyword is called non-static block and static block will be executed during class loading & non static block will be executed during object/instance creation.
 
 ### 1.1.7	Constructor:
 Constructor is a used to create an instance of the class and also used to initialize non static member. Constructor name should be same as class name.
 
-•	Default Constructor: Constructor doesn't have any parameter is called Default Constructor.
-•	Parameterized Constructor: Constructor which has specified number of parameter is called is Parameterized Constructor.
+<b>Default Constructor:</b> Constructor doesn't have any parameter is called Default Constructor.
+<b>Parameterized Constructor:</b> Constructor which has specified number of parameter is called is Parameterized Constructor.
 
 ### 1.1.8	Type-Casting:
 Conversion of one type to another type is called casting and it can be data type casting or class casting. 
@@ -50,7 +51,7 @@ Conversion of one type to another type is called casting and it can be data type
 is casting to a super type. Up-casting is always allowed.
 
 ##### 1.1.8.2	Down Casting: 
-is casting to a subtype. It involves a type check and can throw a class cast exception.
+Down Casting is casting to a subtype. It involves a type check and can throw a class cast exception.
 
 ##### 1.1.8.3	Data type casting:   
 Conversion of variable from one type to other. Here the value may be lost when large type is converted to a smaller type
@@ -59,11 +60,17 @@ Conversion of variable from one type to other. Here the value may be lost when l
 ### 1.2.1	Inheritance:
 Inheritance is a process where one class acquires a property from other class, Class from which properties are inherited is class super class and class to which properties are inherited is called sub-class.
 
-1.2.1.1	Single Level: Process where subclass acquires properties from single super class
-1.2.1.2	Multi-Level: Process where sub-class acquires properties from super class which intern quires from some other super class
-1.2.1.3	Multiple: Process where two or more super class can be inherited to single sub class. It is not supported in Java since it leads to ambiguity.
-1.2.1.4	Hierarchical: Process where single super class can be inherited to two or more sub class.
+#### 1.2.1.1	Single Level: 
+Process where subclass acquires properties from single super class.
 
+#### 1.2.1.2	Multi-Level: 
+Process where sub-class acquires properties from super class which intern quires from some other super class.
+
+#### 1.2.1.3	Multiple: 
+Process where two or more super class can be inherited to single sub class. It is not supported in Java since it leads to ambiguity.
+
+#### 1.2.1.4	Hierarchical: 
+Process where single super class can be inherited to two or more sub class.
 
 ### 1.2.2	Polymorphism
 Polymorphism is a process where object shows different behavior at different stages of its life cycle.
