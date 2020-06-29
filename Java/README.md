@@ -144,19 +144,19 @@ Error: Error is irrecoverable eg: OutOfMemoryErorr, VirtualMachineError, Asserti
 
 ## 1.4	Thread:
 
-•	Thread is a light weight sub-process, smallest unit of processing. 
-•	It is a separate path of execution. 
-•	Threads are independent. 
-•	It uses a shared memory area. 
-•	If any exception occur in one thread doesn’t affect the other thread.
-•	Context switching between the threads are easy.
+•	Thread is a light weight sub-process, smallest unit of processing. <br>
+•	It is a separate path of execution. <br>
+•	Threads are independent. <br>
+•	It uses a shared memory area.<br> 
+•	If any exception occur in one thread doesn’t affect the other thread.<br>
+•	Context switching between the threads are easy.<br>
 
 <b> Thread can be created by using 2 ways, </b>
-1.	By extending Thread Class.
+1.	By extending Thread Class.<br>
 2.	By implementing Runnable interface.
 
 ### 1.4.1	Thread Types:
-1.4.1.1	By extending Thread Class:
+#### 1.4.1.1	By extending Thread Class:
 
 Create a class which will extend Thread class and override run method & place the logic inside the run method.
 
