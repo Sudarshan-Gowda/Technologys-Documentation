@@ -1,23 +1,24 @@
-# Technologys-Documentation
-Introduction to All Technologys
+# Java
 
 Java is a secured, object oriented programming language and it is platform independent. Platform Independent means the code which we written in java can run in any of the platform like windows, Linux & Ubuntu etc.
 
-1.1	Basic Concepts:
-1.1.1	Variable:
+## 1.1	Basic Concepts:
+### 1.1.1	Variable:
 Variable is used to store data or value.
 •	Static variable 
 •	Non static variable
-1.1.2	Method:
+
+### 1.1.2	Method:
 Method is used to implement task or operation. Method name should always starts with small letter followed by camel Case.
 
 Method declarations - method definition - return type
 •	Static Method -> can be declared by static keyword 
 •	Non static method
-1.1.3	Object:
+
+### 1.1.3	Object:
 Object is an entity which has state & behavior, State represents characteristics & behavior represents functionality.
 
-1.1.4	Object Class:
+### 1.1.4	Object Class:
 Object class is parent class of all the classes in java by default. It is present in java.lang package
 
 Methods available in Object class are: 
@@ -31,25 +32,25 @@ Methods available in Object class are:
 8.	clone() – Return a new Object that are exactly same as the current object.
 9.	finalize() -  method is called just before an object is garbage collected.
 
-1.1.5	Class:
+### 1.1.5	Class:
 Class is a blueprint which includes the members like variables, functions (methods), blocks, and constructor.  Or is a collection of Objects, variables, functions (methods), blocks, and constructor.	
 1.1.6	Blocks:
 Blocks is a set of statements enclosed by curly braces, blocks which is represented by static keyword is called static blocks and blocks which is represented by without any static keyword is called non-static block and static block will be executed during class loading & non static block will be executed during object/instance creation.
 
-1.1.7	Constructor:
+### 1.1.7	Constructor:
 Constructor is a used to create an instance of the class and also used to initialize non static member. Constructor name should be same as class name.
 
 •	Default Constructor: Constructor doesn't have any parameter is called Default Constructor.
 •	Parameterized Constructor: Constructor which has specified number of parameter is called is Parameterized Constructor.
 
-1.1.8	Type-Casting:
+### 1.1.8	Type-Casting:
 Conversion of one type to another type is called casting and it can be data type casting or class casting. 
 
 1.1.8.1	Up-Casting:  is casting to a super type. Up-casting is always allowed.
 1.1.8.2	Down Casting: is casting to a subtype. It involves a type check and can throw a class cast exception.
 1.1.8.3	Data type casting:   Conversion of variable from one type to other. Here the value may be lost when large type is converted to a smaller type
  
-1.2	OOPS Concepts:
+## 1.2	OOPS Concepts:
 1.2.1	Inheritance:
 Inheritance is a process where one class acquires a property from other class, Class from which properties are inherited is class super class and class to which properties are inherited is called sub-class.
 
@@ -59,7 +60,7 @@ Inheritance is a process where one class acquires a property from other class, C
 1.2.1.4	Hierarchical: Process where single super class can be inherited to two or more sub class.
 
 
-1.2.2	Polymorphism
+### 1.2.2	Polymorphism
 Polymorphism is a process where object shows different behavior at different stages of its life cycle.
 
 1.2.2.1	Compile Time Polymorphism:  In compile time polymorphism method declaration gets binded to the method definition at compile time. Method overloading is used to achieve compile time polymorphism.
@@ -70,7 +71,7 @@ Polymorphism is a process where object shows different behavior at different sta
 
 1.2.2.2.2	Method Overriding: Two or more method having same signature & same parameter is called method overriding.
 
-1.2.3	Abstraction: 
+### 1.2.3	Abstraction: 
 Abstraction is a process of hiding class implementation and showing only class definition.
 
 1.2.3.1	Abstract class:  Class which contains abstract method is called abstract class
@@ -82,10 +83,10 @@ Abstraction is a process of hiding class implementation and showing only class d
 1.2.3.2	Interface: Interface is reference type in java. It contains collection of abstract methods & is used to achieve 100% abstraction & also used to overcome multiple inheritances. Interface contains interface keyword.
 
 
-1.2.4	Encapsulation: 
+### 1.2.4	Encapsulation: 
 Encapsulation is a process of binding code and data in a single unit of place. Java Bean is the best example for Encapsulation.
 
-1.3	Exception Handling: 
+### 1.3	Exception Handling: 
 
 Exception is as event which trigger at runtime which will terminate the current execution flow of the program or code. Hence we go for an Exception Handling.
 
@@ -119,7 +120,7 @@ Keywords of Java Exception:
 
  
 
-1.4	Thread:
+## 1.4	Thread:
 
 •	Thread is a light weight sub-process, smallest unit of processing. 
 •	It is a separate path of execution. 
@@ -139,14 +140,14 @@ Create a class which will extend Thread class and override run method & place th
 
  
 
-1.4.1.2	By implementing Runnable interface:
+#### 1.4.1.2	By implementing Runnable interface:
 
 Create a class which will implement runnable interface and provide implementation to the run method.
 
  
 
 
-1.4.2	Life Cycle of Thread:
+### 1.4.2	Life Cycle of Thread:
 
 According to sun, Thread life cycle in java is divided into 4 states, those are new runnable, non-runnable & terminated. For better understanding threads are divided into 5 states.
 
@@ -169,20 +170,20 @@ Non runnable: This is the state when thread is still alive, but currently not el
 Terminated: Thread is in terminated or dead state when its run() method exists. 
 
 
-1.4.3	Multithreading:
+### 1.4.3	Multithreading:
 
 Multithreading is a process of executing multiple threads simultaneously
 
 Multithreading and multiprocessing is used to achieve multitasking. We will use multithread rather than multiprocess since it uses shared memory area & context switching between thread also very fast & takes less time. But processing will take more time & will not use shared memory area.
 
-1.4.4	Thread Deadlock:
+### 1.4.4	Thread Deadlock:
 
 Thread Deadlock: Deadlock can occur in a situation when a Thread is waiting for an object lock which is acquired by another thread & second thread is waiting for an object lock which is acquired by first thread. Since both the threads are waiting each other to release the lock, the condition is called Deadlock and it can be overcome by using wait & notify methods.
 
  
 
 
-1.5	Collection Framework
+## 1.5	Collection Framework
 
 Collection is a framework that provides architecture to store and manipulate the group of objects.
 Whenever we want to represent a group of individual objects as a single entity then we should go for the collection.
@@ -195,7 +196,7 @@ Whenever we want to represent a group of individual objects as a single entity t
 •	Collection can hold only objects but not primitives.
 
 
-Difference between Array and Collection
+#### Difference between Array and Collection
  
 Array	Collection
 Arrays are fixed in size.	Collections are grow-able in nature.
@@ -206,12 +207,12 @@ WRT performance Arrays are recommended to use.	WRT Performance collections are n
 Array can hold both primitives and object types.	Collection can hold only objects but not primitives.
 
 
-Collections are divided into 3 types:
+### Collections are divided into 3 types:
 •	List
 •	Que 
 •	Set
 
-1.5.1	List
+### 1.5.1	List
 •	List is a type of collection and it is grow-able in nature. It grows dynamically.
 •	It allows duplicate and null object to store.
 •	It preserves insertion order.
@@ -219,7 +220,7 @@ Collections are divided into 3 types:
 •	Here element can be stores and retrieved based on index, iterator, for each look.
 •	List contain mainly 3 types: Array List, Vector, Linked List
 
-1.5.1.1	Array List
+#### 1.5.1.1	Array List
 •	Array List is a type of List which is used to store collection or group of objects.
 •	It is growable in nature it grows with the size of 2^n+1.
 •	It allows duplicate as well as null objects to store.
@@ -229,7 +230,7 @@ Collections are divided into 3 types:
 •	Whenever we want to represent group of individual objects as a separate entity where duplicates are allowed and insertion order is preserved.
   
 
-1.5.1.2	Vector
+#### 1.5.1.2	Vector
 •	Vector is a type of List which is used to store the group of individual objects.
 •	It is grow able in nature. It grows with the size of 2n+1.
 •	It is synchronized and thread safe.
@@ -306,118 +307,10 @@ Here element can be accessed randomly based on index	Here elements can be access
 •	It stores the elements by natural ascending order.
 
 
-1.5.4	Map
+### 1.5.4	Map
 
 •	Map is not the child interface of Collection. It’s just a part of collection.
 •	If we want to represent a group of individual objects as key value pairs then should go for Map.
 •	Both key & values are objects, duplicate keys are not allowed but values can be duplicated.
 
-
- 
-
-
-
-
-
-1.6	Difference in Java Concepts
-1.6.1	Difference between String Builder & String Buffer
-
-String Builder	String Buffer
-Introduced in Java 1.5	Introduced in Java 1.0
-Not Synchronized	Synchronized
-Not Thread Safe	Thread Safe
-Faster In Performance	Slower In Performance
-Mutable	Mutable
-
-
-Synchronized – Multiple threads can’t access at a same time.
-Mutable – Modifiable
-
-
-1.6.2	Difference between String, String Buffer & Builder
-
-	String	String Builder	String Buffer
-Modifiable	Immutable	Mutable	Mutable
-Storage Area	Constant String Pool Area	Heap Area	Heap Area
-Thread Safe	Thread Safe	Not Thread Safe	Thread Safe
-Performance	Fast	Fast	Slow
-
-1.6.3	Difference between wait and sleep method.
-
-Sleep() is a method which is used to pause the process for a few minutes of seconds or the time we want to. But in Case of wait() function thread goes for a sleep and it won’t come back automatically until we call the notify() or notifyAll().  
-
-And other major difference is wait method release lock or monitor while sleep() method doesn’t release the lock or monitor while waiting.
-
-Wait is used for inter-thread communication while sleep() is used to introduce pause on execution generally.
-
- Reference:  https://howtodoinjava.com/java/multi-threading/sleep-vs-wait/
-
-
-Sleep	Wait
-Sleep is a method which is used to pause the process for a few seconds or the time we want to.	But in case of wait() method, thread goes in waiting state and it won’t come back automatically until we call the notify or notifyAll().  
-Sleep doesn’t release the lock	Wait() release the lock or monitor
-
-
-
-1.6.4	Difference between wait and yield
-
-Wait is used for flow control and inter thread communication, while yield is just to relinquish CPU to offer an opportunity to another thread for running. 
-Wait is available in java.lang.Object while Yield is declared in java.lang.Thread class.
-
-
-1.6.5	Difference between Comparable and Comparator:
-Comparable Interface	Comparator Interface
-Comparable interface available in Java.lang package	Comparator interface available in java.util package
-Sort the elements according to natural sorting order	Sort the elements according customized sorting order.
-It contain only one method ie. compareTo().	It contain two methods compare() & equals().
-Comparable interfaces compare “this” reference with the object specified.	Comparator in compares two different class object provided. 
-CompareTo() method is responsible to sort the elements	Compare() method is responsible for sort the elements.
-It provide Single Sorting Sequence	It provide multiple Sorting Sequence.
-Comparable affects the Original class	Comparator doesn’t affect the original class.
-
-
-1.6.6	Differences between this and super keyword
-
-this – keyword is used to reference to the current class object (object of current class).
-
-super – keyword is used to reference to the parent class object.
-
-this() – statement is used to call current class constructor’s
-
-super() – statement is used to call super class parent class(Base class) constructors.
-
-
-1.6.7	Difference between final, finally & finalize
-
-Final	Finally	finalize
-Final is a keyword	Finally is a block	Finalize is a method
-Final is used to apply restriction on class, variable & function.	Finally is used to place important code, It will be executed whether exception occurs or not.	Finalize is used to perform clean up processing just before object is garbage collected.
-
-
-1.6.8	Throw and throws
-
-throw 	throws
-Throw keyword is used to explicitly throw an exception	Throws keyword is used to declare an exception
-Throw is used within the method	Throws is used with the method signature
-Throw is followed by instance 	Throws is followed by class
-We can’t throw multiple exception 	We can declare multiple exception
-Checked exception can’t be propagated using throw only.	Checked exception can be propagated with throws.
-
-
-1.6.9	HashMap and HashTable
-
-HashMap	HashTable
-HashMap is not synchronized and not thread Safe	HashTable is synchronized and Thread Safe
-It is faster in performance	It is slower in performance
-It allow maximum one null key and many null values	It does not allow any null key as well as value
-HashMap is new class introduced in java 1.2	HashTable is come from legacy class.
-HashMap can be make it as synchronized by using the code as follows 
-Map m = Collections.synchronizedMap(hashMap);	It is already synchronized 
-
-
-1.6.10	Synchronized HashMap & ConcurrentHashMap
-
-Synchronized	Concurrent
-While write operation, lock will be applied to entire map, And if we try to insert data to different segment or bucket, It will throw concurrent modification exception. 	Here lock will be applied to only particular segment where we will be doing write operation.
-Performance is slow	Performance is faster
 
