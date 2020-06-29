@@ -51,7 +51,7 @@ Conversion of one type to another type is called casting and it can be data type
 1.1.8.3	Data type casting:   Conversion of variable from one type to other. Here the value may be lost when large type is converted to a smaller type
  
 ## 1.2	OOPS Concepts:
-1.2.1	Inheritance:
+### 1.2.1	Inheritance:
 Inheritance is a process where one class acquires a property from other class, Class from which properties are inherited is class super class and class to which properties are inherited is called sub-class.
 
 1.2.1.1	Single Level: Process where subclass acquires properties from single super class
@@ -71,7 +71,7 @@ Polymorphism is a process where object shows different behavior at different sta
 
 1.2.2.2.2	Method Overriding: Two or more method having same signature & same parameter is called method overriding.
 
-### 1.2.3	Abstraction: 
+#### 1.2.3	Abstraction: 
 Abstraction is a process of hiding class implementation and showing only class definition.
 
 1.2.3.1	Abstract class:  Class which contains abstract method is called abstract class
@@ -86,7 +86,7 @@ Abstraction is a process of hiding class implementation and showing only class d
 ### 1.2.4	Encapsulation: 
 Encapsulation is a process of binding code and data in a single unit of place. Java Bean is the best example for Encapsulation.
 
-### 1.3	Exception Handling: 
+## 1.3	Exception Handling: 
 
 Exception is as event which trigger at runtime which will terminate the current execution flow of the program or code. Hence we go for an Exception Handling.
 
@@ -109,7 +109,7 @@ Note:
 Error: Error is irrecoverable eg: OutOfMemoryErorr, VirtualMachineError, AssertionError.
 
 
-Keywords of Java Exception:
+<b> Keywords of Java Exception: </b>
 
 •	try – block is a statement which will trigger the exception. The try keyword is used to specify a block where we should place exception code. The try block should be followed by catch block or finally block. It means we can’t use try block alone.
 •	catch – block is a handler that handle the exception. It must be preceded by try block which means we can’t use catch block alone. It can be followed by finally block later.
@@ -129,11 +129,11 @@ Keywords of Java Exception:
 •	If any exception occur in one thread doesn’t affect the other thread.
 •	Context switching between the threads are easy.
 
-Thread can be created by using 2 ways,
+<b> Thread can be created by using 2 ways, </b>
 1.	By extending Thread Class.
 2.	By implementing Runnable interface.
 
-1.4.1	Thread Types:
+### 1.4.1	Thread Types:
 1.4.1.1	By extending Thread Class:
 
 Create a class which will extend Thread class and override run method & place the logic inside the run method.
@@ -245,7 +245,7 @@ Faster in Performance	Slower in Performance compared to Array List
 Array List can use Iterator for traversing	Vector uses both Iterator and Enumeration for traversing.
  
 
-1.5.1.3	Linked List
+#### 1.5.1.3	Linked List
 •	Linked List is a type of List which is used to store group of object.
 •	It is a type of both List as well as Que.
 •	It uses doubly linked Data structure to store the data.
@@ -261,18 +261,18 @@ Array List can use Iterator for traversing	It uses both Iterator and Enumeration
 Here element can be accessed randomly based on index	Here elements can be accessed sequentially.
 
 
-1.5.2	Queue
+### 1.5.2	Queue
 •	Que is a type of collection used to store group of objects.
 •	It maintains the first in first out order.
 •	It holds the data which are about to be processed.
 
-1.5.2.1	Priority Queue
+#### 1.5.2.1	Priority Queue
 •	Priority Que is an Implementation class of Que.
 •	It holds the data which are prior to processing by their priorities.
 •	It stores and retrieves the element based on priority level.
 •	It does not allow null values to be stored in the queue.
 
-1.5.3	Set
+#### 1.5.3	Set
 •	Set is a type of collection used to store the group of objects.
 •	It doesn’t allow duplicate objects to store. 
 •	It allows us to store at most one null value in set.
