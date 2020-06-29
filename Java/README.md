@@ -46,9 +46,14 @@ Constructor is a used to create an instance of the class and also used to initia
 ### 1.1.8	Type-Casting:
 Conversion of one type to another type is called casting and it can be data type casting or class casting. 
 
-1.1.8.1	Up-Casting:  is casting to a super type. Up-casting is always allowed.
-1.1.8.2	Down Casting: is casting to a subtype. It involves a type check and can throw a class cast exception.
-1.1.8.3	Data type casting:   Conversion of variable from one type to other. Here the value may be lost when large type is converted to a smaller type
+##### 1.1.8.1	Up-Casting:  
+is casting to a super type. Up-casting is always allowed.
+
+##### 1.1.8.2	Down Casting: 
+is casting to a subtype. It involves a type check and can throw a class cast exception.
+
+##### 1.1.8.3	Data type casting:   
+Conversion of variable from one type to other. Here the value may be lost when large type is converted to a smaller type
  
 ## 1.2	OOPS Concepts:
 ### 1.2.1	Inheritance:
@@ -63,24 +68,32 @@ Inheritance is a process where one class acquires a property from other class, C
 ### 1.2.2	Polymorphism
 Polymorphism is a process where object shows different behavior at different stages of its life cycle.
 
-1.2.2.1	Compile Time Polymorphism:  In compile time polymorphism method declaration gets binded to the method definition at compile time. Method overloading is used to achieve compile time polymorphism.
+##### 1.2.2.1	Compile Time Polymorphism:  
+In compile time polymorphism method declaration gets binded to the method definition at compile time. Method overloading is used to achieve compile time polymorphism.
 
-1.2.2.2	Run Time Polymorphism:  In run time polymorphism method declaration gets binded to the method definition at runtime. Method overriding is used to achieve run time polymorphism. 
+##### 1.2.2.2	Run Time Polymorphism:  
+In run time polymorphism method declaration gets binded to the method definition at runtime. Method overriding is used to achieve run time polymorphism. 
 
-1.2.2.2.1	Method Overloading:  Two or more method having same signature but different parameter is called method overloading.
+###### 1.2.2.2.1	Method Overloading:  
+Two or more method having same signature but different parameter is called method overloading.
 
-1.2.2.2.2	Method Overriding: Two or more method having same signature & same parameter is called method overriding.
+###### 1.2.2.2.2	Method Overriding: 
+Two or more method having same signature & same parameter is called method overriding.
 
-#### 1.2.3	Abstraction: 
+### 1.2.3	Abstraction: 
 Abstraction is a process of hiding class implementation and showing only class definition.
 
-1.2.3.1	Abstract class:  Class which contains abstract method is called abstract class
+#### 1.2.3.1	Abstract class:  
+Class which contains abstract method is called abstract class
 
-1.2.3.1.1	Abstract method: Method which contains method declaration but no definition is called Abstract method.
+##### 1.2.3.1.1	Abstract method: 
+Method which contains method declaration but no definition is called Abstract method.
 
-1.2.3.1.2	Concrete method: Method which contain method declaration as well as method definition.
+##### 1.2.3.1.2	Concrete method: 
+Method which contain method declaration as well as method definition.
 
-1.2.3.2	Interface: Interface is reference type in java. It contains collection of abstract methods & is used to achieve 100% abstraction & also used to overcome multiple inheritances. Interface contains interface keyword.
+#### 1.2.3.2	Interface: 
+Interface is reference type in java. It contains collection of abstract methods & is used to achieve 100% abstraction & also used to overcome multiple inheritances. Interface contains interface keyword.
 
 
 ### 1.2.4	Encapsulation: 
@@ -90,24 +103,26 @@ Encapsulation is a process of binding code and data in a single unit of place. J
 
 Exception is as event which trigger at runtime which will terminate the current execution flow of the program or code. Hence we go for an Exception Handling.
 
-Exception Handling: is a Handler that handles the Exception so that program continues to execute even after coming across abnormal condition or a statement. It can be handled by using try catch block.
+<b> Exception Handling:</b> is a Handler that handles the Exception so that program continues to execute even after coming across abnormal condition or a statement. It can be handled by using try catch block.
 
 Try block is a statement which triggers the exception; Catch block is a handler that handles the exception. Each try block can have any number of catch blocks only those block which matches with the try block will be executed.
 
 In Exception Mainly there are 2 types;
-•	Checked Exception 
-•	Unchecked Exception
+<ul>
+ <li>Checked Exception </li>
+ <li>Unchecked Exception</li>
+ </ul>
 
-Checked Exception	Unchecked Exception
-Compiler detects and identifies the type of Exception which occurs at compile time.	Here compiler will not detect & identifies the type of exception occur at compile time.
-Is also known as compile time Exception or Caught Exception.	Is also known as Runtime Exception or Uncaught Exception
-All the Exception which will come under throwable class other than runtime exception is called checked Exception 	All the exception which will come under runtime exception is called unchecked exception.
-Ex: ClassNotFound, FileNotFound, SQLException, IOException	Ex: ArithmeticException, ArrayIndexOutOfBoundException,NullPointerException,NumberFormatException
+|Checked Exception	|Unchecked Exception|
+|------------------|---------------------|
+|Compiler detects and identifies the type of Exception which occurs at compile time.	|Here compiler will not detect & identifies the type of exception occur at compile time.|
+|Is also known as compile time Exception or Caught Exception.	|Is also known as Runtime Exception or Uncaught Exception|
+|All the Exception which will come under throwable class other than runtime exception is called checked Exception 	|All the exception which will come under runtime exception is called unchecked exception.|
+|Ex: ClassNotFound, FileNotFound, SQLException, IOException	|Ex: ArithmeticException, ArrayIndexOutOfBoundException,NullPointerException,NumberFormatException|
 
 
-Note: 
+<b> Note: </b>
 Error: Error is irrecoverable eg: OutOfMemoryErorr, VirtualMachineError, AssertionError.
-
 
 <b> Keywords of Java Exception: </b>
 
@@ -117,7 +132,6 @@ Error: Error is irrecoverable eg: OutOfMemoryErorr, VirtualMachineError, Asserti
 •	throw – The throw is a keyword used to throw an exception.
 •	throws – The throws keyword is used to declare an exception. It doesn’t throw an exception. It specifies that there may occur an exception in the method. It is always used with method signature.
 •	throwable – is a root class of Java Exception which is available in java.lang package. It is inherited by Exception and Error.
-
  
 
 ## 1.4	Thread:
@@ -138,13 +152,10 @@ Error: Error is irrecoverable eg: OutOfMemoryErorr, VirtualMachineError, Asserti
 
 Create a class which will extend Thread class and override run method & place the logic inside the run method.
 
- 
 
 #### 1.4.1.2	By implementing Runnable interface:
 
 Create a class which will implement runnable interface and provide implementation to the run method.
-
- 
 
 
 ### 1.4.2	Life Cycle of Thread:
@@ -157,17 +168,15 @@ According to sun, Thread life cycle in java is divided into 4 states, those are 
 •	Non Runnable (Blocked)
 •	Terminated
 
- 
+<b>New:</b> This is the state where we create an instance of the class but before invocation of start() method.
 
-New: This is the state where we create an instance of the class but before invocation of start() method.
+<b>Runnable:</b> Thread is in runnable sate after invocation of start() method, but the thread scheduler has not selected it to be the running thread.
 
-Runnable: Thread is in runnable sate after invocation of start() method, but the thread scheduler has not selected it to be the running thread.
+<b>Running:</b> Thread is in running state if the thread scheduler has selected it.
 
-Running: Thread is in running state if the thread scheduler has selected it.
+<b>Non runnable:</b> This is the state when thread is still alive, but currently not eligible to run.
 
-Non runnable: This is the state when thread is still alive, but currently not eligible to run.
-
-Terminated: Thread is in terminated or dead state when its run() method exists. 
+<b>Terminated:</b> Thread is in terminated or dead state when its run() method exists. 
 
 
 ### 1.4.3	Multithreading:
@@ -178,10 +187,7 @@ Multithreading and multiprocessing is used to achieve multitasking. We will use 
 
 ### 1.4.4	Thread Deadlock:
 
-Thread Deadlock: Deadlock can occur in a situation when a Thread is waiting for an object lock which is acquired by another thread & second thread is waiting for an object lock which is acquired by first thread. Since both the threads are waiting each other to release the lock, the condition is called Deadlock and it can be overcome by using wait & notify methods.
-
- 
-
+Deadlock can occur in a situation when a Thread is waiting for an object lock which is acquired by another thread & second thread is waiting for an object lock which is acquired by first thread. Since both the threads are waiting each other to release the lock, the condition is called Deadlock and it can be overcome by using wait & notify methods.
 
 ## 1.5	Collection Framework
 
@@ -198,19 +204,22 @@ Whenever we want to represent a group of individual objects as a single entity t
 
 #### Difference between Array and Collection
  
-Array	Collection
-Arrays are fixed in size.	Collections are grow-able in nature.
-Arrays can hold only homogeneous datatype elements 	Both Homogeneous as well as Heterogeneous data type elements.
- There is no underlying data structure for arrays hence readymade method support is not available.	Every Collection class is implemented based on some standard data structure. Hence readymade method support is available.
-WRT Memory arrays are not recommended to use.	WRT memory collections are recommended to use.
-WRT performance Arrays are recommended to use.	WRT Performance collections are not recommended to use.
-Array can hold both primitives and object types.	Collection can hold only objects but not primitives.
+|Array	|Collection|
+|------|------|
+|Arrays are fixed in size.	|Collections are grow-able in nature.|
+|Arrays can hold only homogeneous datatype elements |Both Homogeneous as well as Heterogeneous data type elements.|
+|There is no underlying data structure for arrays hence readymade method support is not available.	|Every Collection class is implemented based on some standard data structure. Hence readymade method support is available.|
+|WRT Memory arrays are not recommended to use.	|WRT memory collections are recommended to use.|
+|WRT performance Arrays are recommended to use.	|WRT Performance collections are not recommended to use.|
+|Array can hold both primitives and object types.	|Collection can hold only objects but not primitives.|
 
 
 ### Collections are divided into 3 types:
-•	List
-•	Que 
-•	Set
+<ul>
+  <li>List</li>
+  <li>Que</li> 
+  <li>Set</li>
+ </ul>
 
 ### 1.5.1	List
 •	List is a type of collection and it is grow-able in nature. It grows dynamically.
@@ -238,11 +247,12 @@ Array can hold both primitives and object types.	Collection can hold only object
 •	It uses dynamically resizing array data structure or dynamic array data structure.
 
 
-Array List	Vector
-Array List is a type of List which is grow able in nature and it grows with the size of 2^n+1	Vector is also type of List which it is grow able in nature & grows with the size of 2*n+1
-It is not synchronized & not thread safe 	Synchronized and Thread Safe.
-Faster in Performance	Slower in Performance compared to Array List
-Array List can use Iterator for traversing	Vector uses both Iterator and Enumeration for traversing.
+|Array List	|Vector|
+|-----------|------|
+|Array List is a type of List which is grow able in nature and it grows with the size of 2^n+1	|Vector is also type of List which it is grow able in nature & grows with the size of 2*n+1|
+|It is not synchronized & not thread safe |	Synchronized and Thread Safe.|
+|Faster in Performance	|Slower in Performance compared to Array List|
+|Array List can use Iterator for traversing	|Vector uses both Iterator and Enumeration for traversing.|
  
 
 #### 1.5.1.3	Linked List
@@ -253,12 +263,13 @@ Array List can use Iterator for traversing	Vector uses both Iterator and Enumera
 •	In Linked List Manipulation is faster since if we remove elements from the list it will not shift entire cells instead it will just remove the link and add links to previous object.
 
 
-Array List	Linked List
-It is type of List and it is grow able in nature	It is type of list as well as Que and it is also grow able in nature.
-It used Array Data structure to store the elements. 	It used Doubly Linked List to store the elements.
-Here Manipulation is slower, Since shifting is required.	Here Manipulation is faster.
-Array List can use Iterator for traversing	It uses both Iterator and Enumeration for traversing.
-Here element can be accessed randomly based on index	Here elements can be accessed sequentially.
+|Array List	|Linked List|
+|-----------|-----------|
+|It is type of List and it is grow able in nature	|It is type of list as well as Que and it is also grow able in nature.|
+|It used Array Data structure to store the elements. 	|It used Doubly Linked List to store the elements.|
+|Here Manipulation is slower, Since shifting is required.	|Here Manipulation is faster.|
+|Array List can use Iterator for traversing	|It uses both Iterator and Enumeration for traversing.|
+|Here element can be accessed randomly based on index	|Here elements can be accessed sequentially.|
 
 
 ### 1.5.2	Queue
@@ -279,28 +290,28 @@ Here element can be accessed randomly based on index	Here elements can be access
 •	It does not preserve insertion order.
 •	Whenever we want to represent group of individual objects as single entity where duplicates are not allowed and insertion order is not preserved.
 
-1.5.3.1	Hash Set
+##### 1.5.3.1	Hash Set
 •	HashSet is an implementation class of Set Interface.
 •	It uses hash table for storage.
 •	Hashing technique is used store the elements.
 •	It contains unique items.
 
-1.5.3.2	Linked Hash Set
+##### 1.5.3.2	Linked Hash Set
 •	It represents Linked List implementation of Set Interface.
 •	It extends HashSet class and implements Set interface.
 •	It also contains unique elements.
 •	It preserves insertion order and permits null elements.
 
-1.5.3.3	Sorted Set
+##### 1.5.3.3	Sorted Set
 •	Sorted Set is an alternate of Set interface.
 •	Elements of Sorted Set are arranged in the ascending order.
 •	Whenever we want to represent group of individual objects as a single entity where duplicates are not allowed but all the objects should be inserted according to some sorting order, then we should go for sorted set.
 
-1.5.3.4	Navigable Set
+##### 1.5.3.4	Navigable Set
 •	Navigable Set is a child interface of Sorted Set.
 •	It defines several methods for Navigation purpose.
 
-1.5.3.5	Tree Set
+##### 1.5.3.5	Tree Set
 •	Tree Set is an implementation of Set interface.
 •	It uses balanced tree data structure to store the data.
 •	It does not allow duplicate objects to store.
