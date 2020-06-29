@@ -118,7 +118,7 @@ In Exception Mainly there are 2 types;
 <ul>
  <li>Checked Exception </li>
  <li>Unchecked Exception</li>
- </ul>
+</ul>
 
 |Checked Exception	|Unchecked Exception|
 |------------------|---------------------|
@@ -133,13 +133,14 @@ Error: Error is irrecoverable eg: OutOfMemoryErorr, VirtualMachineError, Asserti
 
 <b> Keywords of Java Exception: </b>
 
-•	try – block is a statement which will trigger the exception. The try keyword is used to specify a block where we should place exception code. The try block should be followed by catch block or finally block. It means we can’t use try block alone.
-•	catch – block is a handler that handle the exception. It must be preceded by try block which means we can’t use catch block alone. It can be followed by finally block later.
-•	finally – block is used to execute the important code of the program. It is executed whether exception is handled or not.
-•	throw – The throw is a keyword used to throw an exception.
-•	throws – The throws keyword is used to declare an exception. It doesn’t throw an exception. It specifies that there may occur an exception in the method. It is always used with method signature.
-•	throwable – is a root class of Java Exception which is available in java.lang package. It is inherited by Exception and Error.
- 
+<ul>
+ <li><b>try</b> – block is a statement which will trigger the exception. The try keyword is used to specify a block where we should place exception code. The try block should be followed by catch block or finally block. It means we can’t use try block alone.</li>
+</ul> 
+<ul><b>catch</b> – block is a handler that handle the exception. It must be preceded by try block which means we can’t use catch block alone. It can be followed by finally block later.</ul>
+<ul><b>finally</b> – block is used to execute the important code of the program. It is executed whether exception is handled or not.</ul>
+<ul><b>throw</b> – The throw is a keyword used to throw an exception.</ul>
+<ul><b>throws</b> – The throws keyword is used to declare an exception. It doesn’t throw an exception. It specifies that there may occur an exception in the method. It is always used with method signature.</ul>
+<ul><b>throwable</b> – is a root class of Java Exception which is available in java.lang package. It is inherited by Exception and Error.</ul>
 
 ## 1.4	Thread:
 
