@@ -76,25 +76,27 @@ Two ways to perform dependency injection:<br/>
 					<value>Test2</value>
 				</list>
 			</c nstruct r-arg>	
- 		</bean>```
+ 		</bean>
+	```
 
 
 *	For List of Object Ref:
 
 	```  
- 	<bean id="" class="">
+		<bean id="" class="">
 		<c nstruct r-arg>
 			<list>
-				<ref-bean>test1</ref-bean>
-				<ref-bean>Test2</ref-bean>
+			<ref-bean>test1</ref-bean>
+			<ref-bean>Test2</ref-bean>
 			</list>
-		</c nstruct r-arg>	
- 	</bean>  ```
+			</c nstruct r-arg>	
+		</bean>
+	```
 
  
 *	Map:
 
-	``` <bean id="" class="">
+	```<bean id="" class="">
 	      <constructor-arg>
 		<map>
 		  <entry key="" value=""/>
