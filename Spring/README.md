@@ -112,6 +112,7 @@ Two ways to perform dependency injection:<br/>
   1	Primitive and String based values
   2.	Object based values
   3.	Collection
+	
 *	Simple property
    
    ```<bean id=""  class="">
@@ -121,20 +122,25 @@ Two ways to perform dependency injection:<br/>
 * Object
 	 ```<bean id="" class="">
 	      <property name="" ref=""/>
-	    </bean>```
+	    </bean>
+	 ```
  
 *	List of String
- ```<bean id="" class="">
-	    <property name="">
-        <list>
-          <value></value>
-        </list>
-      </property>
-    </bean>
+
+ ```
+ <bean id="" class="">
+    <property name="">
+	<list>
+	  <value></value>
+	</list>
+   </property>
+ </bean>
  ``` 
+ 
 *	List of Objects:
+
 ```
- 	<bean id="" class="">
+	<bean id="" class="">
 		<property name="">
 			<list>
 			<ref bean=""/>
