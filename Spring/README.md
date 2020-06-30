@@ -62,21 +62,22 @@ Two ways to perform dependency injection:<br/>
 
 *	Object Initialization:
 	``` <bean id="" class="">
-    	<constructor-arg> 
-        <ref bean=""/> <
-      /constructor-arg>
-  	</bean> ```
+    		<constructor-arg> 
+     		   <ref bean=""/> <
+     		 /constructor-arg>
+  	    </bean>```
 
 *	List Initialization:
 
 	```  	<bean id="" class="">
-		<c nstruct r-arg>
-			<list>
-				<value>Test1</value>
-				<value>Test2</value>
-			</list>
-		</c nstruct r-arg>	
- 	</bean> ```
+			<c nstruct r-arg>
+				<list>
+					<value>Test1</value>
+					<value>Test2</value>
+				</list>
+			</c nstruct r-arg>	
+ 		</bean>```
+
 
 *	For List of Object Ref:
 
@@ -93,13 +94,14 @@ Two ways to perform dependency injection:<br/>
  
 *	Map:
 
-	```	<bean id="" class="">
-      <constructor-arg>
-        <map>
-          <entry key="" value=""/>
-        </map>
-      </constructor-arg>
-      </bean>```
+	``` <bean id="" class="">
+	      <constructor-arg>
+		<map>
+		  <entry key="" value=""/>
+		</map>
+	      </constructor-arg>
+	    </bean>
+	```
  
 ### 8.3.2	Dependency Injection by Setter Method:
 
