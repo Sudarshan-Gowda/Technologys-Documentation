@@ -1,4 +1,4 @@
-# Hinernate
+# Hibernate
 Brief Introduction to Hibernate
 
 ## 	Introduction:
