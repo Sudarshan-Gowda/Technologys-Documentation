@@ -1,5 +1,5 @@
 # Hinernate
-Brief Description to Hibernate
+Brief Introduction to Hibernate
 
 ## 	Introduction:
 *	Hibernate is an open source ORM tool used to connect & interact with the database.
