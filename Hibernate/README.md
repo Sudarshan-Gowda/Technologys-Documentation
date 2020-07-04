@@ -2,37 +2,38 @@
 Brief Description to Hibernate
 
 ## 	Introduction:
-•	Hibernate is an open source ORM tool used to connect & interact with the database.
-•	It is light weight & faster in performance.
+*	Hibernate is an open source ORM tool used to connect & interact with the database.
+*	It is light weight & faster in performance.
 
 ### 	ORM tool:
-•	ORM simplifies the data creation, data manipulation & data access.
-•	It is a programming technique that maps the object to the data stored in the database.
-•	It internally uses the JDBC API to interact with the database.
+*	ORM simplifies the data creation, data manipulation & data access.
+*	It is a programming technique that maps the object to the data stored in the database.
+*	It internally uses the JDBC API to interact with the database.
 
 ### 	JPA: 
 JPA is a Java Persistence API which provides certain functionality & standard to ORM tools. javax.persistence packages contains the JPA classes & interfaces.
 
-7.1.3	Advantages of Hibernate Framework:
-•	Open source & lightweight
-•	Fast performance
-•	Database Independent Query.
-•	Automatic table creation
-•	Simplifies complex join
+**Advantages of Hibernate Framework:**
+
+*	Open source & lightweight
+*	Fast performance
+*	Database Independent Query.
+*	Automatic table creation
+*	Simplifies complex join
 
 ### 	Hibernate Mapping
 
-•	One to One
-•	One to Many
-•	Many to One
-•	Many to Many
+*	One to One
+*	One to Many
+*	Many to One
+*	Many to Many
 
 #### 	One to One
 
 Various supported techniques for one to one mapping
-1)	Using foreign key association
-2)	Using common join table
-3)	Using shared primary key
+1. 	Using foreign key association
+2. 	Using common join table
+3. 	Using shared primary key
 
 
 ##### 	Using foreign key association:
@@ -167,7 +168,8 @@ The Second Level cache is by default disabled. Hibernate also doesn't provide an
 
 The second-level cache can improve the performance of your Java Web application even further than first level.
 
-First level Cache vs. Second-level Cache in Hibernate
+**First level Cache vs. Second-level Cache in Hibernate**
+
 1.  The primary difference is that first level cache is maintained at the Session level while the second level cache is maintained at SessionFactory level.
 
 2.  The data stored in the first level cache is accessible to the only Session who maintains it, while the second level cache is accessible to all.
