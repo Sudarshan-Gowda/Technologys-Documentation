@@ -46,18 +46,18 @@ Directives add behavior to an existing DOM element or an existing component inst
 
 1.	A template is an HTML view where we can display data by binding the controls to properties of an Angular Component.
 2. 	We can store the components template in one of two places. 
-    * We can define it inline using the template property or <br>
-    * We can define the template in a separate HTML file & link to it in the component metadata using @Component decorator's templateUrl Property.
+    *  We can define it inline using the template property or <br>
+    *  We can define the template in a separate HTML file & link to it in the component metadata using @Component decorator's templateUrl Property.
 
 
 ## Module
 
-*	Modules are logical boundaries in our application & the application is divided into separate modules to separate the functionality of our application. 
-*	We have app module as a root module which is declared with @NgModule decorator.
-*	NgModule decorator has three options: imports, declarations & bootstrap
-_	Import option is used to import other dependent module like Browser Module etc.
-_	Declaration option is used to define components in the respective module
-_	Bootstrap option tells Angular to which Component to bootstrap in the application.
+1.	Modules are logical boundaries in our application & the application is divided into separate modules to separate the functionality of our application. 
+2.	We have app module as a root module which is declared with @NgModule decorator.
+3.	NgModule decorator has three options: imports, declarations & bootstrap
+	* Import option is used to import other dependent module like Browser Module etc.
+	* Declaration option is used to define components in the respective module
+	* Bootstrap option tells Angular to which Component to bootstrap in the application.
 
 
 ## 	Data Binding
@@ -87,10 +87,10 @@ _	Bootstrap option tells Angular to which Component to bootstrap in the applicat
 Metadata is used to decorate a class so that it can configure the expected behavior of the class.
 
 Metadata is represented by decorators
-1.	Class Decorators
-2.	Property Decorator
-3.	Method decorator
-4.	Parameter Decorator
+	1. Class Decorators
+	2. Property Decorator
+	3. Method decorator
+	4. Parameter Decorator
 
 ## Services:
 *	Service is used when a common functionality needs to be provided to various modules. 
@@ -163,23 +163,23 @@ Execute command to build the project
                     firebase login
 
          Once the login is done successfully means do the following steps:
-*	Go to angular project directory & execute
-                    firebase init   
+	*	Go to angular project directory & execute
+			    firebase init   
 
-*	Select the feature as  
-                    Hosting: Configure and deploy Firebase Hosting sites
+	*	Select the feature as  
+			    Hosting: Configure and deploy Firebase Hosting sites
 
-*	Choose a project (Earlier you created in console) which you want to connect
+	*	Choose a project (Earlier you created in console) which you want to connect
 
-*	What do you want to use your public directory?
-                    Choose the project directory from the dist folder (ex: dist/my-project) 
+	*	What do you want to use your public directory?
+			    Choose the project directory from the dist folder (ex: dist/my-project) 
 
-*	Click yes for (rewrite all url's to index.html)
+	*	Click yes for (rewrite all url's to index.html)
 
-*	File already exists. Overwrite? No
+	*	File already exists. Overwrite? No
 
-*	Execute the deploy command
-firebase deploy   
+	*	Execute the deploy command
+	firebase deploy   
 
 
 
