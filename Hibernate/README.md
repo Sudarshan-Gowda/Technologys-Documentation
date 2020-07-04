@@ -204,15 +204,15 @@ Detail Explanation: Let’s consider we have two entity, One is Employee (Parent
 For Ex: While deleting Employee details and we not configured Cascade type with ALL or REMOVE, Container will not allow to remove the object since it hold relation with associated entity. By Configuring cascade type we can remove both the entity.
 List of Cascade-Types available are:
 
-* 	CascadeType.PERSIST : 
+* 	**CascadeType.PERSIST** : 
 cascade type persist means that save() or persist() operations cascade to related entities. 
-* 	CascadeType.MERGE : 
+* 	**CascadeType.MERGE** : 
 cascade type merge means that related entities are merged when the owning entity is merged. 
-* 	CascadeType.REFRESH : 
+* 	**CascadeType.REFRESH** : 
 cascade type refresh does the same thing for the refresh() operation. 
-* 	CascadeType.REMOVE : 
+* 	**CascadeType.REMOVE** : 
 cascade type remove removes all related entities association with this setting when the owning entity is deleted. 
-* 	CascadeType.DETACH : 
+* 	**CascadeType.DETACH** : 
 cascade type detach detaches all related entities if a “manual detach” occurs. CascadeType.ALL : cascade type all is shorthand for all of the above cascade operations.
 
 The orphan removal will do the same job as like CascadeType in JPA. We just need to configure enable or disable.
